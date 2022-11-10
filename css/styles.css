@@ -496,7 +496,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-clients-a:hover,
+.regular-clients-a:hover ,
 .regular-clients-a:focus {
   border: 1px solid #2196f3;
   color: var(--accent-color);
@@ -509,8 +509,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-clients-icon:hover,
-.regular-clients-icon:focus {
+.regular-clients-a:hover .regular-clients-icon,
+.regular-clients-a:focus .regular-clients-icon {
   fill: var(--accent-color);
 }
 
